@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/56f2e02d5c.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="css/InicioSesion.css">
+    <title>Login</title>
+</head>
+<body>
+    <section>
+        <div class="contenedor">
+            <div class="formulario">
+                <form action="#">
+                    <h2>Iniciar Sesion</h2>
+                    
+                    <div class="input-contenedor">
+                         <i class="fa-solid fa-envelope"></i>
+                        <input type="email" required>
+                        <label for="#">Email</label>   
+                    
+                    </div>
+                    
+                    <div class="input-contenedor">
+                     <input type="password" id="passwordField" required>
+                         <label for="#">Contraseña</label>      
+                      <i class="fa-solid fa-eye-slash toggle-password" onclick=
+                          "togglePasswordVisibility()"></i>                 
+                         </div>
+
+                    
+                    <div class="olvidar">
+                        <label for="#">
+                            <input type="checkbox">
+                            <a href="#">Olvide mi contraseña</a>
+                        </label>                         
+                    </div>
+                </form>
+                
+                <div>
+                    <button>Acceder</button>
+                     <div class="Registrar">
+                         <p> No tengo una cuenta <a href="Registro.html"> Crear una</p>
+                </div>
+            </div>       
+           </div>
+    </section>
+    <!-- Cambié la ruta del script para que apunte a la carpeta Script -->
+    <script src="JavaScript/LoginOjo.js"></script>
+</body>
+</html>
